@@ -1,0 +1,14 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+logging:
+  charset:
+    console: UTF-8
+    file: UTF-8
+  file:
+    name: ./log/${spring.application.name}.log
+    max-history: 30
